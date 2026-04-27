@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+
+[[mods]]
+modId="levelup_toast"
+version="1.0.2"
+displayName="Level Up Toast"
+description="Shows a picture when leveling up"
+authors="YourName"
+license="MIT"
+
+[[dependencies.levelup_toast]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.levelup_toast]]
+modId="puffish_skills"
+mandatory=false
+versionRange="[0.17,)"
+ordering="NONE"
+side="CLIENT"
